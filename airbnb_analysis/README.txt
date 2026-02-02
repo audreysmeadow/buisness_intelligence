@@ -8,21 +8,21 @@ This project analyzes Airbnb listing data to compare the Columbus, Ohio and New 
 
 ## Research Questions
 
-1. [Your question 1]
-2. [Your question 2]
-3. [Your question 3]
-4. [Your question 4]
-5. [Your question 5]
+1. How do the median listing prices differ between states?
+2. How do the median minimum number of nights differ between states?
+3. How do days available differ between states? 
+4. What is the difference in the number of available listings between states?
+5. What is the most popular place for listings in each state?
 
 ## Data Source Mapping
 
 | # | Question | Data Needed | Source | Data Type |
 |:-:|:---------|:------------|:-------|:----------|
-| 1 | [Question 1] | [e.g., price, neighborhood] | [e.g., listings.csv] | [Structured/Semi-structured/Unstructured] |
-| 2 | [Question 2] | [What data?] | [Where from?] | [What type?] |
-| 3 | [Question 3] | [What data?] | [Where from?] | [What type?] |
-| 4 | [Question 4] | [What data?] | [Where from?] | [What type?] |
-| 5 | [Question 5] | [What data?] | [Where from?] | [What type?] |
+| 1 | How do the median listing prices differ between states? | price | listings.csv | Structured |
+| 2 | How do the median minimum number of nights differ between states? | minimum_nights| listings.csv | Structured |
+| 3 | How do days available differ between states? | availability_365| listings.csv | Structured |
+| 4 | What is the difference in the number of available listings between states? | cell count | listings.csv | Structured |
+| 5 | What is the most popular place for listings in each state? | listings.csv | neighborhood | Structured |
 
 ## Data Overview
 - **Columbus, Ohio:** [X] listings (as of Sept 26, 2025)
